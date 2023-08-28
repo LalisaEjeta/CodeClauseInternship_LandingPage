@@ -1,0 +1,79 @@
+.abso{
+    margin-left: 3em;
+    margin-top: 6em;
+}
+
+/* Here navClick is my custom class. */
+.navClick:hover{
+    color:#22CFB8 !important;
+}
+
+.abtUs:hover{
+    background-color: #22CFB8 !important;
+}
+
+.top{
+    position: absolute;
+}
+
+/* Styles for the arrow */
+.arrow-down {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    width: 40px;
+    height: 40px;
+    background-color:#22CFB8; /* Replace with the color you want */
+    border-radius: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.myimg{
+    height: 100vh;
+    background-color: rgb(49, 215, 215);
+}
+
+.myText{
+    color: #22CFB8; 
+}
+
+
+.myBg{
+    background-color: rgb(49, 215, 215);
+}
+
+.mycard {
+    border: none;
+    border-radius:0px ; 
+    border-shadow: none;
+}
+
+.rmOutline:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.accordion-item .accordion-header button{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.accordion .item{
+    border: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+}
+
+.link:hover{
+    color: white;
+}
+
+
